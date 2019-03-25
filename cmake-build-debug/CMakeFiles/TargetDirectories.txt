@@ -1,0 +1,3 @@
+D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/cmake-build-debug/CMakeFiles/Code.dir
+D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
