@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/Tetris.cpp" "D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/cmake-build-debug/CMakeFiles/Code.dir/Tetris.cpp.obj"
   "D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/main.cpp" "D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/cmake-build-debug/CMakeFiles/Code.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

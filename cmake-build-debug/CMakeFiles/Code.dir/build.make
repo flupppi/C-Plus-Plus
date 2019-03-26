@@ -77,17 +77,38 @@ CMakeFiles\Code.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Code.dir\main.cpp.s /c D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\main.cpp
 <<
 
+CMakeFiles\Code.dir\Tetris.cpp.obj: CMakeFiles\Code.dir\flags.make
+CMakeFiles\Code.dir\Tetris.cpp.obj: ..\Tetris.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Code.dir/Tetris.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Code.dir\Tetris.cpp.obj /FdCMakeFiles\Code.dir\ /FS -c D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\Tetris.cpp
+<<
+
+CMakeFiles\Code.dir\Tetris.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/Tetris.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Code.dir\Tetris.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\Tetris.cpp
+<<
+
+CMakeFiles\Code.dir\Tetris.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/Tetris.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Code.dir\Tetris.cpp.s /c D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\Tetris.cpp
+<<
+
 # Object files for target Code
 Code_OBJECTS = \
-"CMakeFiles\Code.dir\main.cpp.obj"
+"CMakeFiles\Code.dir\main.cpp.obj" \
+"CMakeFiles\Code.dir\Tetris.cpp.obj"
 
 # External object files for target Code
 Code_EXTERNAL_OBJECTS =
 
 Code.exe: CMakeFiles\Code.dir\main.cpp.obj
+Code.exe: CMakeFiles\Code.dir\Tetris.cpp.obj
 Code.exe: CMakeFiles\Code.dir\build.make
 Code.exe: CMakeFiles\Code.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Code.exe"
 	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Code.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Code.dir\objects1.rsp @<<
  /out:Code.exe /implib:Code.lib /pdb:D:\Dokumente\Owncloud\Hochschule\C-C++-Programmierung\Code\cmake-build-debug\Code.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/Tetris.cpp">
+			<Option target="Code"/>
+		</Unit>
+		<Unit filename="D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/Tetris.h">
+			<Option target="Code"/>
+		</Unit>
 		<Unit filename="D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/main.cpp">
 			<Option target="Code"/>
 		</Unit>

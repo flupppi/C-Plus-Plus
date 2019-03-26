@@ -124,6 +124,33 @@ Code\fast:
 	$(MAKE) -f CMakeFiles\Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Code.dir\build
 .PHONY : Code\fast
 
+Tetris.obj: Tetris.cpp.obj
+
+.PHONY : Tetris.obj
+
+# target to build an object file
+Tetris.cpp.obj:
+	$(MAKE) -f CMakeFiles\Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Code.dir\Tetris.cpp.obj
+.PHONY : Tetris.cpp.obj
+
+Tetris.i: Tetris.cpp.i
+
+.PHONY : Tetris.i
+
+# target to preprocess a source file
+Tetris.cpp.i:
+	$(MAKE) -f CMakeFiles\Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Code.dir\Tetris.cpp.i
+.PHONY : Tetris.cpp.i
+
+Tetris.s: Tetris.cpp.s
+
+.PHONY : Tetris.s
+
+# target to generate assembly for a file
+Tetris.cpp.s:
+	$(MAKE) -f CMakeFiles\Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Code.dir\Tetris.cpp.s
+.PHONY : Tetris.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... Code
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Tetris.obj
+	@echo ... Tetris.i
+	@echo ... Tetris.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
