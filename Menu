@@ -1,0 +1,40 @@
+Terminal Auswahl Menü
+
+./gamebib
+-------------------------------------
+    Hallo flupppi! Was willst du den heute Spielen?
+    
+    Mein vorschlag für dich ist:
+-   ( )River Raid
+
+    Sonst noch zur Auswahl stehen
+-   ( )Pong
+-   ( )Frogger
+-   ( )Rollenspiel
+-   ( )Tetris
+    ...
+
+    Wenn du etwas spielen willst, das hier nicht aufgelistet ist, 
+    programmiere es doch einfach selbst!
+
+    Markieren mit Leertaste(*)  Zufall mit "z"
+----------------------------------------
+Beschreibung: 
+Pong gilt als das erste kommerzielle Spiel. Hier Bekämpfen sich 
+zwei Spieler gegenseitig indem sie einen Ball hin und her schlagen.
+Derjenige der es schafft das der andere den Ball nicht trifft bekommt einen Punkt.
+Bei drei Punkten ist das Spiel gewonnen. Du kannst mit einem Freund oder einer KI spielen. 
+
+Du hast Pong gewählt. Bist du dir sicher?
+Ja/Nein: y
+
+Hast du einen Mitspieler oder Willst du gegen den Computer Spielen?
+Ja Spieler/Nein Computer: n
+
+Ok, dann geht es jetzt los!
+3
+2
+1
+Los!
+-----------------------------------------
+Ab hier ist Spielgrafik
