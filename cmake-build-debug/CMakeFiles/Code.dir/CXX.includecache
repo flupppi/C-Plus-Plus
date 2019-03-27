@@ -9,14 +9,12 @@
 D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/Tetris.cpp
 iostream
 -
-Windows.h
+windows.h
+-
+wincon.h
 -
 Tetris.h
 D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/Tetris.h
 
 D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/Tetris.h
-
-D:/Dokumente/Owncloud/Hochschule/C-C++-Programmierung/Code/main.cpp
-iostream
--
 

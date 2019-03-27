@@ -1,8 +1,10 @@
+
+
 //
 // Created by Felix Kalchschmid on 26.03.2019.
 //
 #include <iostream>
-#include <Windows.h>
+#include <windows.h>
 using namespace std;
 
 
@@ -102,7 +104,9 @@ int main() {
     // Display Frame
     WriteConsoleOutputCharacter(hConsole, screen, nScreenWidth * nScreenHeight, { 0,0 }, &dwBytesWritten);
 
+
     return 0;
 };
 
 #include "Tetris.h"
+
