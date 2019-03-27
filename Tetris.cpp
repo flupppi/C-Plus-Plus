@@ -100,11 +100,9 @@ int main() {
         for (int x = 0; x < nFieldWidth; x++)
             for (int y = 0 ; y < nFieldHeight; y++)
                 screen[(y + 2) * nScreenWidth + (x + 2)] = L" ABCDEFG=#"[pField[y*nFieldWidth + x ]];
+        // Display Frame
+        WriteConsoleOutputCharacterW(hConsole, screen, nScreenWidth * nScreenHeight, { 0,0 }, &dwBytesWritten);
     }
-    // Display Frame
-    WriteConsoleOutputCharacter(hConsole, screen, nScreenWidth * nScreenHeight, { 0,0 }, &dwBytesWritten);
-
-
     return 0;
 };
 
